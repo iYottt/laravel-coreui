@@ -1,0 +1,25 @@
+{
+    "name": "iyottt/laravel-coreui",
+    "description": "template for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yotsakon",
+            "email": "iyottt@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Iyottt\\LaravelCoreui\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iyottt\\LaravelCoreui\\CoreuiServiceProvider"
+            ]
+        }
+    }
+}
